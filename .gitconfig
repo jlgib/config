@@ -1,0 +1,13 @@
+[user]
+	email =
+	name =
+[core]
+	editor = vim
+[alias]
+	cl = commit -F ~/.commit
+    st = status -s -u -b
+    remotes = branch -v -a
+    b = branch -vv
+    rev = rev-list --left-right --count
+    behind = rev-list --left-only --count origin/master...@
+    dc = diff --cached
